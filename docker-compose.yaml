@@ -1,0 +1,6 @@
+services:
+  sm-sample:
+    build: .
+    volumes:
+      - ./main.cpp:/root/main.cpp
+    tty: true
